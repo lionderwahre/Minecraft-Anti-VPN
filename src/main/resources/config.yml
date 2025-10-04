@@ -1,0 +1,13 @@
+# API key for https://proxycheck.io (free plan = 1,000 requests/day)
+# Register there and enter your key below.
+api-key: "YOUR_API_KEY"
+
+# Message shown when kicking a player using a VPN or proxy
+kick-message: "§cConnections through VPN or proxy are not allowed!"
+
+# Debug mode for detailed logs
+debug-mode: false
+
+# Whitelist: players who will never be blocked
+whitelist:
+  - "LionDerWahre"

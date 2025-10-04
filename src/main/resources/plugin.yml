@@ -1,0 +1,14 @@
+name: AntiVPN
+version: '1.0'
+main: com.lionderwahre.antiVpn.AntiVPN
+api-version: '1.21'
+authors: [ LionDerWahre ]
+commands:
+  antivpn:
+    description: AntiVPN commands
+    usage: /antivpn <reload|whitelist>
+    permission: antivpn.admin
+permissions:
+  antivpn.admin:
+    description: Access to all AntiVPN commands
+    default: op
